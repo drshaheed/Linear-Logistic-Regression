@@ -1,33 +1,31 @@
 # Linear-Logistic-Regression
 Linear-and-Logistic-Regression
-Few popular hashtags -
-#Linear Regression #Logistic Regression #Python
-#Machine Learning #Data Analysis #Housing Dataset
-Motivation
+
+# Motivation
 
 In this work, I used two LIBSVM datasets which are pre-processed data originally from UCI data repository.
 
     Linear regression - Housing dataset (housing scale dataset). Predict housing values in suburbs of Boston. https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression/housing_scale.
     Logistic regression - Adult dataset (I only use a3a training dataset). Predict whether income exceeds $50K/yr based on census data.  https: //www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a3a
+ 
+# About the Project
 
-About the Project
-Linear Regression:
 
-    Linear Regression is one of the most simple Machine learning algorithm that comes under Supervised Learning technique and used for solving regression problems.
+# Linear Regression:
 
-    It is used for predicting the continuous dependent variable with the help of independent variables.
+    Linear Regression is one of the most simple Machine learning algorithm that comes under Supervised Learning technique and used for solving regression problems. It is used for predicting the continuous dependent variable with the help of independent variables.
 
-The goal of the Linear regression is to find the best fit line that can accurately predict the output for the continuous dependent variable
-
-    If single independent variable is used for prediction then it is called Simple Linear Regression and if there are more than two independent variables then such regression is called as Multiple Linear Regression.
-
-    By finding the best fit line, algorithm establish the relationship between dependent variable and independent variable. And the relationship should be of linear nature.
-
-    The output for Linear regression should only be the continuous values such as price, age, salary, etc. The relationship between the dependent variable and independent variable can be shown in below image
+# Goals of the Project
+1. The goal of the Linear regression is to find the best fit line that can accurately predict the output for the continuous dependent variable
+2. If single independent variable is used for prediction then it is called Simple Linear Regression and if there are more than two independent variables then such regression is called as Multiple Linear Regression.
+3. By finding the best fit line, algorithm establish the relationship between dependent variable and independent variable. And the relationship should be of linear nature.
+4. The output for Linear regression should only be the continuous values such as price, age, salary, etc. The relationship between the dependent variable and independent variable can be shown in below image
 
 ![image](https://user-images.githubusercontent.com/96569665/233382533-c9c13612-438d-4232-b394-b82937b9a498.png)
 
-Logistic Regression:
+
+
+# Logistic Regression:
 
     Logistic regression is one of the most popular Machine learning algorithm that comes under Supervised Learning techniques. It can be used for Classification as well as for Regression problems, but mainly used for Classification problems. Logistic regression is used to predict the categorical dependent variable with the help of independent variables.
 
@@ -43,7 +41,7 @@ The output of Logistic Regression problem can be only between the 0 and 1.
 
 Steps involved in this project
 
-# oblem 1
+# problem 1
 
 Linear regression. I randomly split the dataset into two groups: training (around 80%) and testing (around 20%). Then I learn the linear regression model on the training data, using the analytic solution.
 
@@ -71,7 +69,7 @@ After I compute the prediction error on the test data. I repeat this process 10 
 22.319096974362846
 In this part of homework we can see that analytical solution is fast and effective method to solve this kind of problems. Problem 1 was relatively easy. I spent most of the time on setting up python and getting used to new libraries. 
 
-Problem 2
+# Problem 2
 
 Linear regression. I do the same work as in the problem #1 but now using a gradient descent. (10 randomly generated datasets in #1 should be maintained;
 
@@ -98,7 +96,7 @@ error_gradient
 Out[31]:
 3.2280665573708696
 
-Problem 3
+# Problem 3
 
 Logistic regression. As in the problem #1, I randomly split the adult dataset into two groups (80% for training and 20% testing). Then I learn logistic regression on the training data.
 
