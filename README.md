@@ -140,13 +140,13 @@ np.sum(error_back)/10
 Out[40]:
 0.17868888921492393
 
-Here we can see that erro of BLS is greater than that of fixed step. I already explained this in graph.
+Here we can see that error of BLS is greater than that of fixed step. I already explained this in graph.
 
 It was difficult homework because we haven't covered any implementations of ML algorithms before. However it was very interesting to implement them myself. It took a lot of time to start homework because of setting up and getting used to environment and libraries. This homework helped me understand concepts we covered in class bette
 Libraries Used
 
-Ipynb Ipynb Ipynb Ipynb Ipynb
-Installation
+
+Esssential Libraries Installation
 
     Install pandas using pip command: import pandas as pd
     Install numpy using pip command: import numpy as np
