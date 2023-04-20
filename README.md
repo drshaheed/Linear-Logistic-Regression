@@ -29,9 +29,7 @@ The goal of the Linear regression is to find the best fit line that can accurate
 
 Logistic Regression:
 
-    Logistic regression is one of the most popular Machine learning algorithm that comes under Supervised Learning techniques.
-
-    It can be used for Classification as well as for Regression problems, but mainly used for Classification problems. Logistic regression is used to predict the categorical dependent variable with the help of independent variables.
+    Logistic regression is one of the most popular Machine learning algorithm that comes under Supervised Learning techniques. It can be used for Classification as well as for Regression problems, but mainly used for Classification problems. Logistic regression is used to predict the categorical dependent variable with the help of independent variables.
 
 The output of Logistic Regression problem can be only between the 0 and 1.
 
@@ -45,8 +43,7 @@ The output of Logistic Regression problem can be only between the 0 and 1.
 
 Steps involved in this project
 
-Made with Python Made with love ForTheBadge built-with-swag
-Problem 1
+# oblem 1
 
 Linear regression. I randomly split the dataset into two groups: training (around 80%) and testing (around 20%). Then I learn the linear regression model on the training data, using the analytic solution.
 
@@ -157,20 +154,9 @@ Installation
     Install matplotlib.pyplot using pip command: import matplotlib.pyplot as plt
     Install load_svmlight_file using pip command: from sklearn.datasets import load_svmlight_file
 
-How to run?
 
-Ipynb
-Project Reports
-
-report
-
-    Download for the report.
-
-Useful Links
-
-IPYNB GitHub top language
-
+# DATA SOURCE:
     Linear Regression Datasethttps://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression/housing_scale.
     Logistic regression Dataset -  https: //www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a3a
 
-Report - A Detailed Report on the Analysis
+
