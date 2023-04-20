@@ -1,2 +1,2 @@
-# Linear-lOgistic-Regression
+# Linear-Logistic-Regression
 Linear-and-Logistic-Regression
